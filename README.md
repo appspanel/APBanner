@@ -17,7 +17,7 @@ Getting Started
 APBanner is available on [cocoapods](https://cocoapods.org/).
 
 ```sh
-$ pod 'APBanner', '~> 1.0'
+$ pod 'APBanner', '~> 1.0.1'
 ```
 
 #### 2 - Import ####
