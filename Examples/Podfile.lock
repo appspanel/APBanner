@@ -1,12 +1,21 @@
 PODS:
-  - APBanner (1.0)
+  - APBanner (1.0.1)
 
 DEPENDENCIES:
-  - APBanner (~> 1.0)
+  - APBanner (from `https://github.com/appspanel/APBanner.git`)
+
+EXTERNAL SOURCES:
+  APBanner:
+    :git: https://github.com/appspanel/APBanner.git
+
+CHECKOUT OPTIONS:
+  APBanner:
+    :commit: bdb8892ca2adde35f7f78c72a226316ffc0b496e
+    :git: https://github.com/appspanel/APBanner.git
 
 SPEC CHECKSUMS:
-  APBanner: adf11181a72d3567a678f748a42a360467cc01e1
+  APBanner: 6c4c0e7510d317407b194284a03a3dab13c2b0ff
 
-PODFILE CHECKSUM: 6a0d7505bb484fd56626eac9d1584797c6956b78
+PODFILE CHECKSUM: 033e1c8725c732f40463dcfdd11bd04a68c62748
 
 COCOAPODS: 1.2.1
