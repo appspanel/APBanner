@@ -1,5 +1,6 @@
 APBanner by AppsPanel (APNL)
 ===
+![alt text](demo.gif)
 
 APBanner is a simple and customizable iOS in-app notification you can display from wherever you want.
 
@@ -21,7 +22,7 @@ $ pod 'APBanner', '~> 1.0'
 
 #### 2 - Import ####
 
-Add this import where you want to display banner. Use can use it in a ViewController, or wherever you want.
+Add this import where you want to display banner. You can use it in a ViewController, or wherever you want.
 
 ```sh
 #import <APBanner/APBannerManager.h>
@@ -36,8 +37,6 @@ There are three static methods in APBannerManager to show banner. One with only 
 Each parameter is optionnal. The last paramameter is a completion block to catch user's action on this banner (i.e. Single tap and dismiss).
 
 Use it as following :
-
-or
 
 ```sh
     [APBannerManager showBannerWithTitle:@"Title"
@@ -105,6 +104,9 @@ For example, if you want all futures title's color to red, do :
 [APBannerManager setTitleColor:[UIColor redColor]];
 ```
 
+#### 5 - Demo ####
+
+You can find a demo project inside Examples folder.
 
 Have a problem ?
 ---

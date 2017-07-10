@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.platform         = :ios, '8.0'
   s.name             = 'APBanner'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = 'APBanner is a simple and customizable iOS in-app notification you can display from wherever you want.'
   s.description      = <<-DESC
 This lib can :

@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7095CB8CBCD42C0BCBBB7BC1 /* libPods-APBanner-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD6F786046DF818568026A4 /* libPods-APBanner-Demo.a */; };
+		8F3C65CC1F0500390024CD15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3C65CB1F0500390024CD15 /* AppDelegate.m */; };
+		8F3C65CF1F0500390024CD15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3C65CE1F0500390024CD15 /* ViewController.m */; };
+		8F3C65D21F0500390024CD15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3C65D01F0500390024CD15 /* Main.storyboard */; };
+		8F3C65D41F0500390024CD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3C65D31F0500390024CD15 /* Assets.xcassets */; };
+		8F3C65D71F0500390024CD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3C65D51F0500390024CD15 /* LaunchScreen.storyboard */; };
+		8F3C65DA1F0500390024CD15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3C65D91F0500390024CD15 /* main.m */; };
+		8F56FB9A1F06414E005C7349 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F56FB991F06414E005C7349 /* logo.png */; };
+		8FE2FEF91F0BBC490002A3A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F35C9061F0BBB7B0032405A /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CD6F786046DF818568026A4 /* libPods-APBanner-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APBanner-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F35C9061F0BBB7B0032405A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3C65C71F0500390024CD15 /* APBanner-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APBanner-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3C65CA1F0500390024CD15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F3C65CB1F0500390024CD15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F3C65CD1F0500390024CD15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F3C65CE1F0500390024CD15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F3C65D11F0500390024CD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F3C65D31F0500390024CD15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F3C65D61F0500390024CD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F3C65D91F0500390024CD15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F56FB991F06414E005C7349 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A3AD8B311F1F42C7C78DC102 /* Pods-APBanner-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBanner-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APBanner-Demo/Pods-APBanner-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CD95C4B8083D5866059F5AFC /* Pods-APBanner-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBanner-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-APBanner-Demo/Pods-APBanner-Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F3C65C41F0500390024CD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7095CB8CBCD42C0BCBBB7BC1 /* libPods-APBanner-Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D4B142C487B206155F1A2D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD6F786046DF818568026A4 /* libPods-APBanner-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F3C65BE1F0500390024CD15 = {
+			isa = PBXGroup;
+			children = (
+				8F3C65C91F0500390024CD15 /* APBanner-Demo */,
+				8F3C65C81F0500390024CD15 /* Products */,
+				DC6C58571827F112B8A7DCD7 /* Pods */,
+				6D4B142C487B206155F1A2D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F3C65C81F0500390024CD15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F3C65C71F0500390024CD15 /* APBanner-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F3C65C91F0500390024CD15 /* APBanner-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8FE2FEF81F0BBC280002A3A7 /* Ressources */,
+				8F3C65CA1F0500390024CD15 /* AppDelegate.h */,
+				8F3C65CB1F0500390024CD15 /* AppDelegate.m */,
+				8F3C65D31F0500390024CD15 /* Assets.xcassets */,
+				8F35C9061F0BBB7B0032405A /* Info.plist */,
+				8F3C65D51F0500390024CD15 /* LaunchScreen.storyboard */,
+				8F3C65D01F0500390024CD15 /* Main.storyboard */,
+				8F3C65CD1F0500390024CD15 /* ViewController.h */,
+				8F3C65CE1F0500390024CD15 /* ViewController.m */,
+				8F3C65D91F0500390024CD15 /* main.m */,
+			);
+			path = "APBanner-Demo";
+			sourceTree = "<group>";
+		};
+		8FE2FEF81F0BBC280002A3A7 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				8F56FB991F06414E005C7349 /* logo.png */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		DC6C58571827F112B8A7DCD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3AD8B311F1F42C7C78DC102 /* Pods-APBanner-Demo.debug.xcconfig */,
+				CD95C4B8083D5866059F5AFC /* Pods-APBanner-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F3C65C61F0500390024CD15 /* APBanner-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3C65DD1F0500390024CD15 /* Build configuration list for PBXNativeTarget "APBanner-Demo" */;
+			buildPhases = (
+				CB4055164D48EF40B30252B8 /* [CP] Check Pods Manifest.lock */,
+				8F3C65C31F0500390024CD15 /* Sources */,
+				8F3C65C41F0500390024CD15 /* Frameworks */,
+				8F3C65C51F0500390024CD15 /* Resources */,
+				A9E1A8FEFCE572A1E8F642E7 /* [CP] Embed Pods Frameworks */,
+				C12CEC28B4E49DB96FA672BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APBanner-Demo";
+			productName = NewNotifs;
+			productReference = 8F3C65C71F0500390024CD15 /* APBanner-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F3C65BF1F0500390024CD15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = AppsPanel;
+				TargetAttributes = {
+					8F3C65C61F0500390024CD15 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 8F3C65C21F0500390024CD15 /* Build configuration list for PBXProject "APBanner-Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F3C65BE1F0500390024CD15;
+			productRefGroup = 8F3C65C81F0500390024CD15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F3C65C61F0500390024CD15 /* APBanner-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F3C65C51F0500390024CD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3C65D71F0500390024CD15 /* LaunchScreen.storyboard in Resources */,
+				8F3C65D41F0500390024CD15 /* Assets.xcassets in Resources */,
+				8FE2FEF91F0BBC490002A3A7 /* Info.plist in Resources */,
+				8F3C65D21F0500390024CD15 /* Main.storyboard in Resources */,
+				8F56FB9A1F06414E005C7349 /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9E1A8FEFCE572A1E8F642E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APBanner-Demo/Pods-APBanner-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C12CEC28B4E49DB96FA672BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APBanner-Demo/Pods-APBanner-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB4055164D48EF40B30252B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F3C65C31F0500390024CD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3C65CF1F0500390024CD15 /* ViewController.m in Sources */,
+				8F3C65DA1F0500390024CD15 /* main.m in Sources */,
+				8F3C65CC1F0500390024CD15 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F3C65D01F0500390024CD15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F3C65D11F0500390024CD15 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		8F3C65D51F0500390024CD15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F3C65D61F0500390024CD15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F3C65DB1F0500390024CD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F3C65DC1F0500390024CD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F3C65DE1F0500390024CD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3AD8B311F1F42C7C78DC102 /* Pods-APBanner-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9QZDJ4W8F;
+				INFOPLIST_FILE = "APBanner-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appspanel.apbanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F3C65DF1F0500390024CD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD95C4B8083D5866059F5AFC /* Pods-APBanner-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9QZDJ4W8F;
+				INFOPLIST_FILE = "APBanner-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appspanel.apbanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F3C65C21F0500390024CD15 /* Build configuration list for PBXProject "APBanner-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3C65DB1F0500390024CD15 /* Debug */,
+				8F3C65DC1F0500390024CD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F3C65DD1F0500390024CD15 /* Build configuration list for PBXNativeTarget "APBanner-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3C65DE1F0500390024CD15 /* Debug */,
+				8F3C65DF1F0500390024CD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F3C65BF1F0500390024CD15 /* Project object */;
+}
