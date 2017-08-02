@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,21 +12,21 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="APBannerView">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="179"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ior-o9-CSw">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="179"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a6Y-7I-KdP">
-                            <rect key="frame" x="280" y="49.5" width="80" height="80"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a6Y-7I-KdP">
+                            <rect key="frame" x="280" y="48" width="80" height="80"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="80" id="Yog-s0-FEi"/>
                                 <constraint firstAttribute="width" secondItem="a6Y-7I-KdP" secondAttribute="height" multiplier="1:1" id="pf4-lc-u7r"/>
                             </constraints>
                         </imageView>
                         <view clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="FCE-3u-i1V">
-                            <rect key="frame" x="20" y="65" width="245" height="50.5"/>
+                            <rect key="frame" x="20" y="62" width="245" height="51"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Title" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ux3-A2-Jtr">
                                     <rect key="frame" x="0.0" y="-3" width="245" height="17"/>
@@ -42,7 +41,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="1000" text="Body" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5La-cL-CCh">
-                                    <rect key="frame" x="0.0" y="36" width="245" height="14.5"/>
+                                    <rect key="frame" x="0.0" y="36" width="245" height="15"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
@@ -63,10 +62,10 @@
                             </constraints>
                         </view>
                         <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ilm-Ru-COm">
-                            <rect key="frame" x="0.0" y="164" width="375" height="15"/>
+                            <rect key="frame" x="0.0" y="160" width="375" height="15"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q4R-qt-YWX">
-                                    <rect key="frame" x="172" y="5.5" width="30" height="4"/>
+                                    <rect key="frame" x="172" y="6" width="30" height="4"/>
                                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="4" id="YT7-xm-s8C"/>
@@ -92,13 +91,13 @@
                     <constraints>
                         <constraint firstItem="a6Y-7I-KdP" firstAttribute="leading" secondItem="FCE-3u-i1V" secondAttribute="trailing" constant="15" id="66J-5S-Q52"/>
                         <constraint firstItem="Ilm-Ru-COm" firstAttribute="leading" secondItem="ior-o9-CSw" secondAttribute="leading" id="K68-qA-SDI"/>
-                        <constraint firstItem="FCE-3u-i1V" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ior-o9-CSw" secondAttribute="top" constant="5" id="PQR-Ch-b2L"/>
+                        <constraint firstItem="FCE-3u-i1V" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ior-o9-CSw" secondAttribute="top" constant="10" id="PQR-Ch-b2L"/>
                         <constraint firstItem="FCE-3u-i1V" firstAttribute="leading" secondItem="ior-o9-CSw" secondAttribute="leading" constant="20" id="SHH-dE-maa"/>
                         <constraint firstAttribute="bottom" secondItem="Ilm-Ru-COm" secondAttribute="bottom" id="ag5-e8-se1"/>
                         <constraint firstItem="FCE-3u-i1V" firstAttribute="centerY" secondItem="ior-o9-CSw" secondAttribute="centerY" id="h8n-mj-Kfc"/>
                         <constraint firstItem="a6Y-7I-KdP" firstAttribute="centerY" secondItem="ior-o9-CSw" secondAttribute="centerY" id="khm-Mq-qWE"/>
                         <constraint firstItem="a6Y-7I-KdP" firstAttribute="top" secondItem="ior-o9-CSw" secondAttribute="top" priority="999" constant="15" id="mOt-xM-evH"/>
-                        <constraint firstItem="Ilm-Ru-COm" firstAttribute="top" relation="greaterThanOrEqual" secondItem="FCE-3u-i1V" secondAttribute="bottom" constant="5" id="muB-hg-Qha"/>
+                        <constraint firstItem="Ilm-Ru-COm" firstAttribute="top" relation="greaterThanOrEqual" secondItem="FCE-3u-i1V" secondAttribute="bottom" constant="10" id="muB-hg-Qha"/>
                         <constraint firstItem="Ilm-Ru-COm" firstAttribute="top" secondItem="a6Y-7I-KdP" secondAttribute="bottom" priority="999" constant="15" id="vhU-9k-KOS"/>
                         <constraint firstAttribute="trailing" secondItem="Ilm-Ru-COm" secondAttribute="trailing" id="wyP-Qw-5Bd"/>
                         <constraint firstAttribute="trailing" secondItem="FCE-3u-i1V" secondAttribute="trailing" priority="999" constant="20" id="x0s-dj-U7p"/>
@@ -125,7 +124,7 @@
                 <outlet property="titleLabel" destination="Ux3-A2-Jtr" id="sMX-bI-f4W"/>
                 <outlet property="topConstraint" destination="rhW-Tg-vO2" id="65Q-tG-uEJ"/>
             </connections>
-            <point key="canvasLocation" x="-87.5" y="-88.5"/>
+            <point key="canvasLocation" x="-87.5" y="-90.5"/>
         </view>
     </objects>
 </document>
