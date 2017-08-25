@@ -375,7 +375,8 @@
  Init banner view from xib, apply constraint and find top view on screen
  */
 - (void)initUI {
-    self.bannerView = [[[NSBundle mainBundle] loadNibNamed:@"APBannerView" owner:self options:nil] lastObject];
+    NSBundle *myBundle = [NSBundle bundleForClass:APBanner.self];
+    self.bannerView = [[myBundle loadNibNamed:@"APBannerView" owner:self options:nil] lastObject];
 
     self.bannerView.topConstraint.constant = STATUS_BAR_SIZE;
     
