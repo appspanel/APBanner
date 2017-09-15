@@ -1,6 +1,6 @@
 APBanner by AppsPanel (APNL)
 ===
-![alt text](demox.gif)
+![alt text](demoix.gif)
 
 APBanner is a simple and customizable iOS in-app notification you can display from wherever you want.
 
