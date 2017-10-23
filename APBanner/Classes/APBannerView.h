@@ -9,6 +9,10 @@
 
 @interface APBannerView : UIView
 
+/**
+ Constraint to dtermine minheight of image
+ */
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *minHeightConstraint;
 
 /**
  Constraint to determine space between text and right border

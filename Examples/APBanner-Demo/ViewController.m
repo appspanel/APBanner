@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setTitle:@"TITLES"];
+    [self setTitle:@"TITLE"];
     [self initGestures];
     
 //    [self setRedTitle];

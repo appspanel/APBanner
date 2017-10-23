@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -91,14 +91,14 @@
                     <constraints>
                         <constraint firstItem="a6Y-7I-KdP" firstAttribute="leading" secondItem="FCE-3u-i1V" secondAttribute="trailing" constant="15" id="66J-5S-Q52"/>
                         <constraint firstItem="Ilm-Ru-COm" firstAttribute="leading" secondItem="ior-o9-CSw" secondAttribute="leading" id="K68-qA-SDI"/>
-                        <constraint firstItem="FCE-3u-i1V" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ior-o9-CSw" secondAttribute="top" constant="10" id="PQR-Ch-b2L"/>
+                        <constraint firstItem="FCE-3u-i1V" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ior-o9-CSw" secondAttribute="top" constant="5" id="PQR-Ch-b2L"/>
                         <constraint firstItem="FCE-3u-i1V" firstAttribute="leading" secondItem="ior-o9-CSw" secondAttribute="leading" constant="20" id="SHH-dE-maa"/>
                         <constraint firstAttribute="bottom" secondItem="Ilm-Ru-COm" secondAttribute="bottom" id="ag5-e8-se1"/>
                         <constraint firstItem="FCE-3u-i1V" firstAttribute="centerY" secondItem="ior-o9-CSw" secondAttribute="centerY" id="h8n-mj-Kfc"/>
                         <constraint firstItem="a6Y-7I-KdP" firstAttribute="centerY" secondItem="ior-o9-CSw" secondAttribute="centerY" id="khm-Mq-qWE"/>
-                        <constraint firstItem="a6Y-7I-KdP" firstAttribute="top" secondItem="ior-o9-CSw" secondAttribute="top" priority="999" constant="15" id="mOt-xM-evH"/>
-                        <constraint firstItem="Ilm-Ru-COm" firstAttribute="top" relation="greaterThanOrEqual" secondItem="FCE-3u-i1V" secondAttribute="bottom" constant="10" id="muB-hg-Qha"/>
-                        <constraint firstItem="Ilm-Ru-COm" firstAttribute="top" secondItem="a6Y-7I-KdP" secondAttribute="bottom" priority="999" constant="15" id="vhU-9k-KOS"/>
+                        <constraint firstItem="a6Y-7I-KdP" firstAttribute="top" secondItem="ior-o9-CSw" secondAttribute="top" priority="999" constant="10" id="mOt-xM-evH"/>
+                        <constraint firstItem="Ilm-Ru-COm" firstAttribute="top" relation="greaterThanOrEqual" secondItem="FCE-3u-i1V" secondAttribute="bottom" constant="5" id="muB-hg-Qha"/>
+                        <constraint firstItem="Ilm-Ru-COm" firstAttribute="top" secondItem="a6Y-7I-KdP" secondAttribute="bottom" priority="999" constant="10" id="vhU-9k-KOS"/>
                         <constraint firstAttribute="trailing" secondItem="Ilm-Ru-COm" secondAttribute="trailing" id="wyP-Qw-5Bd"/>
                         <constraint firstAttribute="trailing" secondItem="FCE-3u-i1V" secondAttribute="trailing" priority="999" constant="20" id="x0s-dj-U7p"/>
                         <constraint firstAttribute="trailing" secondItem="a6Y-7I-KdP" secondAttribute="trailing" constant="15" id="z3X-OI-tBW"/>
@@ -120,6 +120,7 @@
                 <outlet property="imageView" destination="a6Y-7I-KdP" id="ygw-qM-JQ9"/>
                 <outlet property="labelsImageConstraint" destination="66J-5S-Q52" id="Dze-Ls-jt4"/>
                 <outlet property="labelsRightConstraint" destination="x0s-dj-U7p" id="x9n-VG-WCx"/>
+                <outlet property="minHeightConstraint" destination="Yog-s0-FEi" id="iW6-9J-KZu"/>
                 <outlet property="subtitleLabel" destination="ip8-XR-bdp" id="aao-Cz-rzZ"/>
                 <outlet property="titleLabel" destination="Ux3-A2-Jtr" id="sMX-bI-f4W"/>
                 <outlet property="topConstraint" destination="rhW-Tg-vO2" id="65Q-tG-uEJ"/>

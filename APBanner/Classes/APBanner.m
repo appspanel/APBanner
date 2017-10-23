@@ -110,7 +110,6 @@
         _image = image;
         _actionCompletion = actionCompletion;
         _minHeightConstraint.active = _image ? YES : NO;
-        
     }
     return self;
 }
@@ -164,7 +163,7 @@
         [self initUI];
         [self initGestures];
     }
-    
+
     self.shown = YES;
     self.expanded = expand;
     [self.bannerView.titleLabel setText:self.title ? self.title : @""];
@@ -173,6 +172,7 @@
     [self.bannerView.imageView setHidden:(!self.image)];
     [self.bannerView.labelsRightConstraint setActive:self.image ? NO : YES];
     [self.bannerView.labelsImageConstraint setActive:self.image ? YES : NO];
+    [self.bannerView.minHeightConstraint setActive:self.image ? YES : NO];
     [self.bannerView.imageView setImage:self.image];
     
     self.bannerView.bottomViewHeightConstraint.constant = ([self canBeExpanded] ? 20 : 0);
